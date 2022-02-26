@@ -1,0 +1,3 @@
+.item.clickable.hidden + .spacer {
+  display: none;
+}

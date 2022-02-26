@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WunderBit Helpers</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+  <div class="main">
+    <div class="font-mono">
+      <div class="text-center font-black" style="font-size: 1rem">WunderBit Filters</div>
+      <div class="mt-4">
+        <div>Global Settings</div>
+        <div class="space-y-2">
+          <div class="grid-2">
+            <label for="wf_status" class="py-1"><span>Default Status</span></label>
+            <select id="wf_status">
+              <option value="all">All</option>
+              <option value="Active">Active</option>
+              <option value="Inactive">Inactive</option>
+            </select>
+          </div>
+          <div class="grid-2">
+            <label for="wf_exchange" class="py-1"><span>Default Exchange</span></label>
+            <select id="wf_exchange" class="w-full">
+              <option value="all">All</option>
+              <optgroup label="Binance">
+                <option value="BINANCE">Binance</option>
+                <option value="BINANCE-FUTURES (USDT-M)">BINANCE-FUTURES (USDT-M)</option>
+                <option value="BINANCE-FUTURES (COIN-M)">BINANCE-FUTURES (COIN-M)</option>
+              </optgroup>
+              <option value="KRAKEN">KRAKEN</option>
+              <option value="FTX">FTX</option>
+              <option value="BYBIT">BYBIT</option>
+              <option value="DERIBIT">DERIBIT</option>
+              <option value="KUCOIN">KUCOIN</option>
+              <option value="OKEX">OKEX</option>
+              <option value="BITMEX">BITMEX</option>
+            </select>
+          </div>
+        </div>
+        <div class="flex">
+          <div id="wf_success_text" class="hidden font-black">Saved!!</div>
+          <div class="ml-auto">
+            <button class="btn" id="wf_settings_btn">save</button>
+          </div>
+        </div>
+      </div>
+      <div class="mt-4">
+        <div>Hi, This extension is build by Arpit Patidar</div>
+        <div>Its just a few UI improvements until they get it official</div>
+        <div>Github <a target="_blank" href="https://github.com/iamarpitpatidar/wunderbit-helper">Link</a></div>
+        <div class="mt-2">
+          <div>Contact</div>
+          <div>Email: arpit.ptdr@hotmail.com</div>
+          <div>Discord: arpit#8586</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+  </body>
+</html>
